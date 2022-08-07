@@ -1,11 +1,11 @@
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
     <title>Task 1</title>
-	</head>
-	<body>
+  </head>
+  <body>
     <main>
       <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-miterlimit="10" clip-rule="evenodd" viewBox="0 0 520 379">
         <g id="people">
@@ -160,14 +160,14 @@
           display: grid;
           place-items: center;
         }
-        
+
           svg {
             max-width: 600px;
           }
 
             #circle-semi-line {
               transform-origin: center bottom;
-              animation: animeCircleSemiLine 4s linear infinite 
+              animation: animeCircleSemiLine 4s linear infinite
             }
 
             #chat-bubble-1 {
@@ -203,5 +203,5 @@
         100% { transform: scale(0); opacity: 0; }
       }
     </style>
-	</body>
+  </body>
 </html>
