@@ -1,8 +1,9 @@
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
-    <meta name="viewport" content="width=device-width" />
     <title>Task 1</title>
   </head>
   <body>
@@ -165,24 +166,24 @@
             max-width: 600px;
           }
 
-            #circle-semi-line {
+            g#circle-semi-line {
               transform-origin: center bottom;
               animation: animeCircleSemiLine 4s linear infinite
             }
 
-            #chat-bubble-1 {
+            g#chat-bubble-1 {
               opacity: 0;
               transform-origin: right bottom;
               animation: animeChatBubble 8s linear 0s infinite
             }
 
-            #chat-bubble-2 {
+            g#chat-bubble-2 {
               opacity: 0;
               transform-origin: left bottom;
               animation: animeChatBubble 8s linear 1s infinite
             }
 
-            #chat-bubble-3 {
+            g#chat-bubble-3 {
               opacity: 0;
               transform-origin: left bottom;
               animation: animeChatBubble 8s linear 3s infinite
