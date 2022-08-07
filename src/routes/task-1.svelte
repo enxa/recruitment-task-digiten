@@ -166,27 +166,27 @@
             max-width: 600px;
           }
 
-            g#circle-semi-line {
+            path#circle-semi-line {
               transform-origin: center bottom;
-              animation: animeCircleSemiLine 4s linear infinite
+              animation: animeCircleSemiLine 4s linear infinite;
             }
 
             g#chat-bubble-1 {
               opacity: 0;
               transform-origin: right bottom;
-              animation: animeChatBubble 8s linear 0s infinite
+              animation: animeChatBubble 8s linear 0s infinite;
             }
 
             g#chat-bubble-2 {
               opacity: 0;
               transform-origin: left bottom;
-              animation: animeChatBubble 8s linear 1s infinite
+              animation: animeChatBubble 8s linear 1s infinite;
             }
 
             g#chat-bubble-3 {
               opacity: 0;
               transform-origin: left bottom;
-              animation: animeChatBubble 8s linear 3s infinite
+              animation: animeChatBubble 8s linear 3s infinite;
             }
 
       @keyframes animeCircleSemiLine {
